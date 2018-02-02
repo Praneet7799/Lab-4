@@ -1,9 +1,10 @@
 #include <iostream>
 #include <string.h>
 using namespace std;
+/* Praneet nandan 1711096 */
+
+
 /*top and front are defined as global variables*/
-
-
 int top, front;
 
 
