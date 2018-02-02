@@ -132,28 +132,28 @@ void CustomerService::displayIssue()
 
 int main()
 {
-    CustomerService CS;
-    CS.displayIssue();
-    CS.addIssue("Error141",9997689777,"A really good issue");
-    CS.displayIssue();
-    CS.addIssue("Wot?",9897678635,"This one's nice as well");
-    CS.displayIssue();
-    CS.addIssue("wow",6666666666,"Oh, the first palindrome");
-    CS.displayIssue();
-    CS.addIssue("nice",9653408725,"This one's just lame");
-    CS.displayIssue();
-    CS.addIssue("Youre lame",99999635417,"whoa! calm down");
-    CS.displayIssue();
-    CS.addIssue("cattac",8726391726,"putting in anything just for the palindrome");
-    CS.displayIssue();
-    CS.addIssue("stupidiputs",81726459173,"That one was clever");
-    CS.displayIssue();
-    CS.addIssue("Agreed",9273816492,"just two more to go");
-    CS.displayIssue();
-    CS.addIssue("*one",9241691827,"this assignment was challenging, man");
-    CS.displayIssue();
-    CS.addIssue("end",7812681627,"easier assignments pls");
-    CS.displayIssue();
+    CustomerService issue;
+    issue.displayIssue();
+    issue.addIssue("Error141",9997689777,"A really good issue");
+    issue.displayIssue();
+    issue.addIssue("Wot?",9897678635,"This one's nice as well");
+    issue.displayIssue();
+    issue.addIssue("wow",6666666666,"Oh, the first palindrome");
+    issue.displayIssue();
+    issue.addIssue("nice",9653408725,"This one's just lame");
+    issue.displayIssue();
+    issue.addIssue("Youre lame",99999635417,"whoa! calm down");
+    issue.displayIssue();
+    issue.addIssue("cattac",8726391726,"putting in anything just for the palindrome");
+    issue.displayIssue();
+    issue.addIssue("stupidiputs",81726459173,"That one was clever");
+    issue.displayIssue();
+    issue.addIssue("Agreed",9273816492,"just two more to go");
+    issue.displayIssue();
+    issue.addIssue("*one",9241691827,"this assignment was challenging, man");
+    issue.displayIssue();
+    issue.addIssue("end",7812681627,"easier assignments pls");
+    issue.displayIssue();
     return 0;   
 }
 
